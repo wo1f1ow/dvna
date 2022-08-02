@@ -11,3 +11,9 @@ updates:
       interval: "daily"
       time: "10:00"
       timezone: "Europe/Berlin"
+  - package-ecosystem: "docker"
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+      time: "10:00"
+      timezone: "Europe/Berlin"
